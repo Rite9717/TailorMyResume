@@ -1,0 +1,136 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome5}
+\usepackage[T1]{fontenc}
+
+% Custom colors
+\definecolor{sectioncolor}{RGB}{0,51,102}
+
+% Formatting
+\pagestyle{empty}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{\vspace{-5pt}\scshape\raggedright\large\color{sectioncolor}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{5pt}{3pt}
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item #1}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #4} \\
+      \textnormal{\small#2} & \textit{\small #3} \\
+    \end{tabular*}\vspace{-2pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{\small{#1}}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}, itemsep=1pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in, itemsep=0pt, parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+% Header
+\begin{center}
+     {\LARGE \scshape Ritesh Kumar} \\ 
+    \small Ghaziabad, Uttar Pradesh, India \\ \vspace{1.5mm}
+    \faIcon{phone} +91-8505874457 $|$
+    \faIcon{envelope} riteshnkumar261@gmail.com}{} $|$
+    \faIcon{linkedin} rite261}{} $|$ 
+    \faIcon{github} Rite9717}{}
+  
+\end{center}
+
+% Education
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading{Maharaja Surajmal Institute of Technology (GGSIPU)}{B.Tech in Computer Science \& Engineering}{}{Present}
+\resumeSubHeadingListEnd
+
+% Experience
+\section{Experience}
+\vspace{1mm}
+\resumeSubHeadingListStart
+    \resumeSubheading{Software Trainee (JAVA) \href{https://drive.google.com/file/d/1Yffqp0fCKewnNe609f7aq2Up78jHtq17/view}{\faIcon{link}}}{Ducat | Noida,Uttar Pradesh,India}{}{Jun 24 - Aug 24}
+    \resumeItemListStart
+        \resumeSubItem{Engineered 4+ Spring Boot applications with RESTful APIs.}
+        \resumeSubItem{Integrated Java Persistence API (JPA) with Hibernate framework, streamlining data access operations and reducing database query response times by 15\%, while supporting high-volume transactional processing.}
+        \resumeSubItem{Gained hands-on experience with \textbf{Microservices} architecture and API integrations in 3+ projects.}
+        \resumeSubItem{Worked with \textbf{Spring Security} for authentication and authorization.}
+    \resumeItemListEnd
+
+    \vspace{3mm}
+    
+    \resumeSubheading{PR, Outreach \& Sponsorship \href{https://drive.google.com/file/d/1bfyQCup4Nz_kUNOC3Lai24L6woBqf9aj/view?usp=sharing}{\faIcon{link}}}{eCell MSIT | Delhi, India}{}{Aug 23 - May 24}
+    \resumeItemListStart
+        \resumeSubItem{Forged strategic partnerships with 10+ colleges across Delhi NCR.}
+        \resumeSubItem{Secured 20K sponsorship in cash and 10K in-kind contributions.}
+        \resumeSubItem{Orchestrated 5+ networking events and workshops to promote startup culture.}
+        \resumeSubItem{Collaborated with MSME and AICTE to enhance brand visibility and engagement.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% Skills at the top
+\section{Skills}
+    \vspace{1mm}
+    \resumeItemListStart
+        \resumeItem{\textbf{Programming:} Java, ReactJs, Tailwind CSS, HTML, CSS, MySQL, LaTeX}
+        \vspace{1mm}
+        \resumeItem{\textbf{Tools \& Technologies:} Git \& GitHub, Hibernate, Docker}
+        \vspace{1mm}
+        \resumeItem{\textbf{Frameworks:} Spring Boot, Spring MVC}
+        \vspace{1mm}
+        
+    \resumeItemListEnd
+
+% Projects
+\section{Projects}
+\vspace{1mm}
+\resumeSubHeadingListStart
+    \resumeSubheading{MovieDex | Movie Information Platform \href{https://github.com/Rite9717/MovieDex}{\faIcon{link}}}{Developed a web application that provides comprehensive details about movies, including ratings and summaries.}{}{}
+    \resumeItemListStart
+        \resumeSubItem{Implemented a responsive and user-friendly interface using React.js and Tailwind CSS.}
+        \resumeSubItem{Integrated 10+ RESTful API endpoints to fetch real-time movie data from TMDB API.}
+        \resumeSubItem{Utilized React Router for seamless navigation and search functionality, improving user experience by 50\% in terms of load time and accessibility.}
+    \resumeItemListEnd
+    {\small\textit{Tools: : ReactJs, Tailwind CSS, REST API, Git \& GitHub}}
+    \vspace{3mm}
+    
+    \resumeSubheading{RBAC System | Role-Based Access Control Web App \href{https://github.com/Rite9717/RBAC}{\faIcon{link}}}{Developed a secure web application with Spring Session Management to achieve Role-Based Access Control (RBAC).}{}{} 
+    \resumeItemListStart
+        \resumeSubItem{Implemented Spring Session Management for secure and scalable user authentication.}
+        \resumeSubItem{Developed 15+ RESTful APIs to manage user roles and access levels efficiently.}
+        \resumeSubItem{Integrated Spring Data JPA with MySQL for seamless data persistence, handling 1M+ database records.}
+        \resumeSubItem{Built a structured and scalable backend architecture, improving authentication performance by 50\%.}
+    \resumeItemListEnd
+    {\small\textit{Tools: Spring Boot, Spring Security, Spring Session, MySQL, Hibernate, REST API, Git \& GitHub}}
+    \vspace{3mm}
+
+% Achievements & Certifications
+\section{Achievements \& Certifications {\href{https://drive.google.com/drive/folders/176MbgzQI1IKFXmTd_ZdIlUW_ywcrwceh?usp=sharing}{\faIcon{link}}}}
+\vspace{1mm}
+\resumeItemListStart
+    \resumeItem{\textbf{1st} place in  Delhi Cyber Police Hackathon 2024 }
+    
+    \resumeItem{Spring Framework Certification (Issued by Udemy, March 2025)}
+    
+    \resumeItem{Docker Certification (Issued by Udemy, March 2025) }
+    
+    \resumeItem{Git \& GitHub Certification (Issued by Udemy, January 2025) }
+    
+    
+\resumeItemListEnd
+
+\end{document}
