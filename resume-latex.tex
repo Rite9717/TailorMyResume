@@ -1,0 +1,97 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome5}
+\usepackage[T1]{fontenc}
+
+\definecolor{sectioncolor}{RGB}{0,51,102}
+
+\pagestyle{empty}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{\vspace{-5pt}\scshape\raggedright\large\color{sectioncolor}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{5pt}{3pt}
+
+\newcommand{\resumeItem}[1]{\item #1}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #4} \\
+      \textnormal{\small#2} & \textit{\small #3} \\
+    \end{tabular*}\vspace{-2pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{\small{#1}}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}, itemsep=1pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in, itemsep=0pt, parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+     {\LARGE \scshape Rachit Yadav} \\ 
+    \small New Delhi, Delhi (110058) \\ \vspace{1.5mm}
+    \faIcon{phone} 7566 534 666 $|$
+    \faIcon{envelope} ry.rachityadav@gmail.com $|$
+    \faIcon{linkedin} rachityadav
+\end{center}
+
+\section{Professional Summary}
+\resumeItemListStart
+\resumeItem{Marketing strategist with 2+ years experience driving growth through data-driven campaigns and market analysis. Proven ability to manage cross-functional teams and optimize digital marketing ROI.}
+\resumeItemListEnd
+
+\section{Core Competencies}
+\resumeItemListStart
+\resumeItem{Digital Marketing Strategy • Campaign Management • Market Research \& Analytics • SEO Optimization • Budget Allocation \& Control • Cross-functional Leadership • Content Development}
+\resumeItemListEnd
+
+\section{Professional Experience}
+\resumeSubHeadingListStart
+\resumeSubheading{Vinyasa}{Remote}{Founder’s Office Intern}{Aug 2024 - Present}
+\resumeItemListStart
+\resumeSubItem{Redesigned customer outreach database increasing campaign efficiency by 40%}
+\resumeSubItem{Analyzed marketing campaign performance data to identify 15+ optimization opportunities}
+\resumeSubItem{Developed 5 personalized communication templates improving response rates by 35%}
+\resumeItemListEnd
+
+\resumeSubheading{Entrepreneurship Cell MSIT}{Delhi}{Executive Head}{Sep 2023 - Jul 2024}
+\resumeItemListStart
+\resumeSubItem{Conducted market research for 20+ startups increasing fundraising success by 30%}
+\resumeSubItem{Managed ₹500K marketing budget across 10+ campus events}
+\resumeSubItem{Developed growth strategies improving startup survival rate by 20%}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading{Maharaja Surajmal Institute of Technology}{Delhi}{B.Tech Computer Science \& Engineering • GPA: 8.69}{2022-2026}
+\resumeItemListStart
+\resumeSubItem{Relevant Coursework: Data Analysis, Business Communications, Marketing Analytics}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Certifications}
+\resumeItemListStart
+\resumeItem{Google Digital Marketing Certification (In Progress)}
+\resumeItem{HubSpot Content Marketing Certified}
+\resumeItemListEnd
+
+\section{Technical Skills}
+\resumeItemListStart
+\resumeItem{SEO Tools: Google Analytics, SEMrush, Ahrefs}
+\resumeItem{Marketing Automation: Mailchimp, HubSpot}
+\resumeItem{Data Analysis: Excel, Google Data Studio}
+\resumeItemListEnd
+
+\end{document}
