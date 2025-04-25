@@ -1,0 +1,113 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome5}
+\usepackage[T1]{fontenc}
+
+\definecolor{sectioncolor}{RGB}{0,51,102}
+
+\pagestyle{empty}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{\vspace{-5pt}\scshape\raggedright\large\color{sectioncolor}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{5pt}{3pt}
+
+\newcommand{\resumeItem}[1]{\item #1}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #4} \\
+      \textnormal{\small#2} & \textit{\small #3} \\
+    \end{tabular*}\vspace{-2pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{\small{#1}}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}, itemsep=1pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in, itemsep=0pt, parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+     {\LARGE \scshape Ritesh Kumar} \\ 
+    \small Ghaziabad, Uttar Pradesh, India \\ \vspace{1.5mm}
+    \faIcon{phone} +91-8505874457 $|$
+    \faIcon{envelope} riteshnkumar261@gmail.com $|$
+    \faIcon{linkedin} rite261 $|$ 
+    \faIcon{github} Rite9717
+\end{center}
+
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading{Maharaja Surajmal Institute of Technology (GGSIPU)}{B.Tech in Computer Science \& Engineering}{}{Present}
+\resumeSubHeadingListEnd
+
+\section{Experience}
+\vspace{1mm}
+\resumeSubHeadingListStart
+    \resumeSubheading{Software Trainee (JAVA)}{Ducat | Noida, Uttar Pradesh}{}{Jun 24 - Aug 24}
+    \resumeItemListStart
+        \resumeSubItem{Developed 4+ Spring Boot applications with RESTful APIs}
+        \resumeSubItem{Optimized database operations using JPA \& Hibernate, reducing response times by 15\%}
+        \resumeSubItem{Implemented Microservices architecture in 3+ high-traffic projects}
+        \resumeSubItem{Integrated Spring Security for role-based access control}
+    \resumeItemListEnd
+
+    \vspace{3mm}
+    
+    \resumeSubheading{PR, Outreach \& Sponsorship}{eCell MSIT | Delhi}{}{Aug 23 - May 24}
+    \resumeItemListStart
+        \resumeSubItem{Developed partnerships with 10+ educational institutions}
+        \resumeSubItem{Secured ₹30K+ sponsorships through stakeholder negotiations}
+        \resumeSubItem{Coordinated cross-functional teams for 5+ tech events}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Skills}
+    \vspace{1mm}
+    \resumeItemListStart
+        \resumeItem{\textbf{Frontend:} HTML5, CSS3, JavaScript, React, Tailwind CSS}
+        \resumeItem{\textbf{Backend:} Java, Spring Boot, Node.js, REST APIs}
+        \resumeItem{\textbf{Tools:} Git/GitHub, Docker, MySQL, Hibernate}
+        \resumeItem{\textbf{Soft Skills:} Team Collaboration, Technical Communication}
+    \resumeItemListEnd
+
+\section{Projects}
+\vspace{1mm}
+\resumeSubHeadingListStart
+    \resumeSubheading{MovieDex | Full-Stack Web App}{}{}{}
+    \resumeItemListStart
+        \resumeSubItem{Built responsive frontend using React \& Tailwind CSS}
+        \resumeSubItem{Integrated TMDB API for real-time movie data}
+        \resumeSubItem{Optimized performance using React Router \& lazy loading}
+    \resumeItemListEnd
+    {\small\textit{Tech: React, REST API, Git, Responsive Design}}
+    \vspace{3mm}
+    
+    \resumeSubheading{RBAC System | Secure Web Application}{}{}{}
+    \resumeItemListStart
+        \resumeSubItem{Implemented Spring Security for authentication}
+        \resumeSubItem{Developed 15+ REST APIs for access management}
+        \resumeSubItem{Optimized MySQL queries for 1M+ records}
+    \resumeItemListEnd
+    {\small\textit{Tech: Spring Boot, JPA, MySQL, Docker}}
+\resumeSubHeadingListEnd
+
+\section{Achievements}
+\resumeItemListStart
+    \resumeItem{1st Place - Delhi Cyber Police Hackathon 2024}
+    \resumeItem{Spring Framework Certification (Udemy)}
+    \resumeItem{Docker Certified Developer}
+\resumeItemListEnd
+
+\end{document}
