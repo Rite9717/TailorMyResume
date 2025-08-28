@@ -40,66 +40,71 @@ It also generates a **professional LaTeX resume** for download.
 ---
 
 ## 📂 Project Structure  
+
+```bash
 .
 ├── /backend
-│ ├── app.py # Flask application
-│ ├── req.txt # Python dependencies
-│ ├── sampleformat.txt # LaTeX template
-│ └── /generated # Output directory
+│   ├── app.py               # Flask application
+│   ├── req.txt              # Python dependencies
+│   ├── sampleformat.txt     # LaTeX template
+│   └── /generated           # Output directory
 │
 └── /frontend
-├── src/ # React app source
-├── public/
-├── package.json
-└── tailwind.config.js
-
-yaml
-Copy code
+    ├── src/                 # React app source
+    ├── public/
+    ├── package.json
+    └── tailwind.config.js
+````
 
 ---
 
-## ⚙️ Backend — Quick Start  
+## ⚙️ Backend — Quick Start
+
 ```bash
 cd backend
 pip install -r req.txt
 # Add your SambaNova API key in app.py
 python app.py
-👉 Server runs at http://127.0.0.1:5000
+```
 
-🖥️ Frontend — Quick Start
-bash
-Copy code
+👉 Server runs at **[http://127.0.0.1:5000](http://127.0.0.1:5000)**
+
+---
+
+## 🖥️ Frontend — Quick Start
+
+```bash
 cd frontend
 npm install
 npm start
-👉 React dev server runs at http://localhost:3000
+```
 
-🧑‍💻 Usage
-🚀 Launch the app (both frontend & backend must be running).
+👉 React dev server runs at **[http://localhost:3000](http://localhost:3000)**
 
-📄 Upload your resume (PDF) and paste the job description.
+---
 
-✨ Click "Enhance My Resume".
+## 🧑‍💻 Usage
 
-🔍 Review results:
+1. 🚀 Launch the app (both frontend & backend must be running).
+2. 📄 Upload your **resume (PDF)** and paste the **job description**.
+3. ✨ Click **"Enhance My Resume"**.
+4. 🔍 Review results:
 
-✅ Enhanced resume bullet points
+   * ✅ Enhanced resume bullet points
+   * 🎯 Extracted keywords
+   * 💡 Improvement recommendations
+5. 📥 Download as **JSON** or **LaTeX code** for a polished resume.
 
-🎯 Extracted keywords
+---
 
-💡 Improvement recommendations
+## 🤝 Contributing
 
-📥 Download as JSON or LaTeX code for a polished resume.
-
-🤝 Contributing
 Contributions are welcome! 💖
 
-🍴 Fork the project
+1. 🍴 Fork the project
+2. 🌱 Create a branch (`git checkout -b feature/AmazingFeature`)
+3. 💾 Commit (`git commit -m 'Add some AmazingFeature'`)
+4. 📤 Push (`git push origin feature/AmazingFeature`)
+5. 🔁 Open a Pull Request
 
-🌱 Create a branch (git checkout -b feature/AmazingFeature)
-
-💾 Commit (git commit -m 'Add some AmazingFeature')
-
-📤 Push (git push origin feature/AmazingFeature)
-
-🔁 Open a Pull Request
+---
