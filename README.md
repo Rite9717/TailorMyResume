@@ -1,37 +1,41 @@
-TailorMyResume — AI-Powered Resume Enhancer 📄✨
-TailorMyResume is a full-stack web application that helps you optimize your resume for specific job descriptions. By analyzing your resume and a target job description, it generates enhanced content, identifies key skills, and provides actionable recommendations. The app also generates a clean, professional resume in LaTeX format.
+✨ TailorMyResume — AI-Powered Resume Enhancer 📄💼
+
+TailorMyResume is a full-stack web application that helps you optimize your resume for specific job descriptions.
+By analyzing your resume and a target job description, it generates enhanced content, identifies key skills, and provides actionable recommendations.
+It also generates a professional LaTeX resume for download.
 
 🚀 Features
-AI-Powered Enhancement: 🧠 Analyzes your resume and a job description to generate new, quantified bullet points that highlight your most relevant skills.
 
-Keyword Matching: 🎯 Identifies and lists the most important keywords from the job description that match your experience.
+🧠 AI-Powered Enhancement – Generates quantified, impactful bullet points tailored to the job description.
 
-Actionable Recommendations: 💡 Provides clear suggestions for how to improve your resume's content and structure.
+🎯 Keyword Matching – Extracts and highlights important job keywords that align with your experience.
 
-LaTeX Generation: ✍️ Creates a professionally formatted resume in LaTeX code, which you can easily download and compile.
+💡 Actionable Recommendations – Provides clear guidance to improve content and structure.
 
-PDF Processing: 📥 Extracts text from uploaded PDF resumes for a seamless analysis process.
+✍️ LaTeX Resume Generation – Produces a clean, professional LaTeX-formatted resume.
+
+📥 PDF Processing – Extracts text from uploaded PDF resumes for seamless analysis.
 
 💻 Tech Stack
-Frontend
-React
+🌐 Frontend
 
-Tailwind CSS
+⚛️ React
 
-Axios
+🎨 Tailwind CSS
 
-Lucide React
+🔗 Axios
 
-Backend
-Python
+🖼️ Lucide React
 
-Flask
+⚙️ Backend
 
-OpenAI (for SambaNova API)
+🐍 Python
 
-pdfplumber
+🔥 Flask + Flask-CORS
 
-Flask-CORS
+🤖 OpenAI (via SambaNova API)
+
+📑 pdfplumber
 
 📂 Project Structure
 .
@@ -46,63 +50,52 @@ Flask-CORS
     ├── public/
     ├── package.json
     └── tailwind.config.js
+
 ⚙️ Backend — Quick Start
-Navigate to the backend directory:
-
-Bash
-
 cd backend
-Install dependencies:
-
-Bash
-
 pip install -r req.txt
-Configure API Key: Locate backend/app.py and replace the placeholder with your SambaNova API key.
-
-Run the server:
-
-Bash
-
+# Add your SambaNova API key in app.py
 python app.py
-The backend will start and run on http://127.0.0.1:5000.
+
+
+👉 Server runs at http://127.0.0.1:5000
 
 🖥️ Frontend — Quick Start
-Navigate to the frontend directory:
-
-Bash
-
 cd frontend
-Install dependencies:
-
-Bash
-
 npm install
-Run the application:
-
-Bash
-
 npm start
-The React development server will start. Go to http://localhost:3000 in your browser to access the application.
+
+
+👉 React dev server runs at http://localhost:3000
 
 🧑‍💻 Usage
-Launch the App: Ensure both the frontend and backend servers are running.
 
-Input Data: On the homepage, paste the job description you are targeting and upload your resume as a PDF file.
+🚀 Launch the app (both frontend & backend must be running).
 
-Enhance: Click the "Enhance My Resume" button. The application will send your data to the AI model.
+📄 Upload your resume (PDF) and paste the job description.
 
-Review and Download: Once the process is complete, you will see a page with your enhanced resume content, a list of matched keywords, and a section with valuable recommendations. You can download the new content as a JSON file or get the generated LaTeX code.
+✨ Click "Enhance My Resume".
+
+🔍 Review results:
+
+✅ Enhanced resume bullet points
+
+🎯 Extracted keywords
+
+💡 Improvement recommendations
+
+📥 Download as JSON or LaTeX code for a polished resume.
 
 🤝 Contributing
-Contributions are what make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-Fork the Project.
+Contributions are welcome! 💖
 
-Create your Feature Branch (git checkout -b feature/AmazingFeature).
+🍴 Fork the project
 
-Commit your Changes (git commit -m 'Add some AmazingFeature').
+🌱 Create a branch (git checkout -b feature/AmazingFeature)
 
-Push to the Branch (git push origin feature/AmazingFeature).
+💾 Commit (git commit -m 'Add some AmazingFeature')
 
-Open a Pull Request.
+📤 Push (git push origin feature/AmazingFeature)
 
+🔁 Open a Pull Request
